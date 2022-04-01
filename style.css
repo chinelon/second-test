@@ -1,0 +1,126 @@
+.body {
+    padding-left: 100px;
+    padding-right: 100px;
+    border: white;
+    background-color: azure;
+}
+.flexbox{
+    border-bottom: solid black;
+    align-items: baseline;
+}
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.flex1{
+    display: flex;
+    justify-content: flex-end;
+}
+.title {
+   
+    font-size: 100px;
+    text-align: center;
+    font-stretch: ultra-expanded;
+}
+.subtitle {
+    
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    padding: 0px;
+    grid-gap: 8px;
+  }
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    grid-gap: 1px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: cursive;
+    grid-column: 1;
+    grid-row: 1
+  }
+  .grid-item1 {
+    background-color: lightgrey;
+    width: 450px;
+    height: 750px;
+    padding: 50px;
+    margin: 20px;
+    grid-column:2;
+    grid-row: 1 / 3;
+  }
+
+.grid-item2 {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .grid-item3 {
+   
+    font-size: 10px;
+    text-align: left;
+    word-wrap: break-word;
+  }
+  .grid-item4 {
+    padding: 0%;
+    font-size:30px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: cursive;
+    font-weight: bold;
+    grid-column: 1;
+    grid-row:  3;
+  }
+  
+  .grid-item6 {
+    padding: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: 1;
+    grid-row: 4
+  }
+  .grid-item7 {
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    word-wrap: break-word;
+    
+  }
+  .grid-item8 {
+
+    padding: 20px;
+    font-size: 10px;
+    text-align: left;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+#footer{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 10;
+    background-color: beige;
+}
+  
